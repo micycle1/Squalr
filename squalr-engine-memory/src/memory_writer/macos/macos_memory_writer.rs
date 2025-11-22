@@ -1,5 +1,6 @@
 use crate::memory_writer::memory_writer_trait::IMemoryWriter;
-use squalr_engine_common::dynamic_struct::to_bytes::ToBytes;
+use squalr_engine_api::dynamic_struct::to_bytes::ToBytes;
+use squalr_engine_processes::process_info::OpenedProcessInfo;
 use std::os::raw::c_void;
 use std::ptr::null_mut;
 
