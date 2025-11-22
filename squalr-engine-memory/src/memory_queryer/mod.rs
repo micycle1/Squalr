@@ -24,7 +24,7 @@ pub use crate::memory_queryer::android::android_memory_queryer::AndroidMemoryQue
 pub use crate::memory_queryer::linux::linux_memory_queryer::LinuxMemoryQueryer as MemoryQueryerImpl;
 
 #[cfg(target_os = "macos")]
-pub use crate::memory_queryer::macos::macos_memory_queryer::MacOsMemoryQueryer as MemoryQueryerImpl;
+pub use crate::memory_queryer::macos::macos_memory_queryer::MacosMemoryQueryer as MemoryQueryerImpl;
 
 #[cfg(target_os = "windows")]
 pub use crate::memory_queryer::windows::windows_memory_queryer::WindowsMemoryQueryer as MemoryQueryerImpl;
